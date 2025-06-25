@@ -4,7 +4,7 @@ function Card({ title, description, imageURL, children, isVisited }: {
   title: string
   description: string
   imageURL: string
-  children?: ReactNode
+  children: ReactNode
   isVisited: boolean
 }) {
   return (
